@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Posts by Ruben Hillier]]></title>
+  <link href="http://tregeagle.com/atom.xml" rel="self"/>
+  <link href="http://tregeagle.com/"/>
+  <updated>2016-09-10T18:16:33+10:00</updated>
+  <id>http://tregeagle.com/</id>
+  <author>
+    <name><![CDATA[Ruben Hillier]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Nurse Futures]]></title>
+    <link href="http://tregeagle.com/blog/2016/09/10/nurse-futures/"/>
+    <updated>2016-09-10T17:02:26+10:00</updated>
+    <id>http://tregeagle.com/blog/2016/09/10/nurse-futures</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been a registered nurse for a mere six months now and am very aware of my ignorance. University did not teach me about the paperwork and associated procedures to arrange things like outpatient xrays. However I know I&rsquo;ll figure that stuff out with experience. In the meantime I worry that some of the stuff I enjoyed learning about at Uni is going to fall out of my head. A lot of the stuff I was taught at Uni was probably a bit ahead of where we&rsquo;d begin as n00b nurses. Nonetheless I&rsquo;m starting to consider post-grad study/options. Some starting points:</p>
+
+<ul>
+<li><a href="https://www.acn.edu.au/registered-nurses">Australian College of Nursing</a></li>
+<li><a href="http://www.utas.edu.au/postgraduate/all-faculties-and-institutes/courses/faculty-of-health-science2/nursing">University of Tasmania</a></li>
+<li><a href="http://www.lstmed.ac.uk/">Liverpool Sch. of Tropical Medicine</a></li>
+<li><a href="http://www.defencejobs.gov.au/army/jobs/NursingOfficer/">Army Nurse</a></li>
+<li><a href="https://www.health.qld.gov.au/workforus/profiles/MtIsa/MI_Cloncurry.asp">Cloncurry</a>
+
+<ul>
+<li><a href="https://www.health.qld.gov.au/cunninghamcentre/html/nursing.asp">Remote Area Nursing training - QLD</a></li>
+<li><a href="https://crana.org.au/education">CRANAplus</a></li>
+</ul>
+</li>
+</ul>
+
+
+<p>In the meantime I intend to study bits and bobs in my limited spare time. Using HETI and associated services:</p>
+
+<ul>
+<li>HETI <a href="https://hetionline.cit.health.nsw.gov.au/hetionline/oam_login.jsp">Log in</a>/ [Front page] (<a href="http://www.heti.nsw.gov.au/">http://www.heti.nsw.gov.au/</a>)</li>
+<li><a href="http://learn.nps.org.au/">NPS</a></li>
+<li><a href="https://bloodsafelearning.org.au/">Blood Safe</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Markup Cheatsheet]]></title>
+    <link href="http://tregeagle.com/blog/2016/09/09/markdown-cheatsheet/"/>
+    <updated>2016-09-09T22:44:00+10:00</updated>
+    <id>http://tregeagle.com/blog/2016/09/09/markdown-cheatsheet</id>
+    <content type="html"><![CDATA[<p>My blog is currently built with the help of the now defunct <a href="http://octopress.org/" title="Octopress">Octopress</a>. I intend to switch to <a href="http://jekyllrb.com/">Jekyll</a> when I can be arsed. I write posts using John Gruber&rsquo;s <a href="http://daringfireball.net/projects/markdown/" title="Daring Fireball - Markdown">Markdown</a>. As I write so infrequently I will maintain this brief cheatsheet to remind me of the syntax.</p>
+
+<hr />
+
+<h2>Links</h2>
+
+<pre><code>An [example](http://url.com/ "Title")
+</code></pre>
+
+<p>An <a href="http://url.com/" title="Title">example</a></p>
+
+<h2>Images</h2>
+
+<pre><code>![alt text](/favicon.png "Title")
+</code></pre>
+
+<p><img src="http://tregeagle.com/favicon.png" title="Title" alt="alt text" /></p>
+
+<h2>Headers</h2>
+
+<pre><code># Header 1
+</code></pre>
+
+<h1>Header 1</h1>
+
+<pre><code>## Header 2
+</code></pre>
+
+<h2>Header 2</h2>
+
+<pre><code>.
+.
+.
+###### Header 6
+</code></pre>
+
+<h6>Header 6</h6>
+
+<h2>Lists</h2>
+
+<pre><code>*   Abacus
+    * answer    
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+            * knob
+    3. burper
+*   Cunning
+</code></pre>
+
+<ul>
+<li>Abacus
+
+<ul>
+<li>answer</li>
+</ul>
+</li>
+<li>Bubbles
+
+<ol>
+<li>bunk</li>
+<li>bupkis
+
+<ul>
+<li>BELITTLER
+
+<ul>
+<li>knob</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>burper</li>
+</ol>
+</li>
+<li>Cunning</li>
+</ul>
+
+
+<h2>Blockquotes</h2>
+
+<pre><code>&gt; Email-style angle brackets
+&gt; are used for blockquotes.
+
+&gt; &gt; And, they can be nested.
+
+&gt; #### Headers in blockquotes
+&gt; 
+&gt; * You can quote a list.
+&gt; * Etc.
+</code></pre>
+
+<blockquote><p>Email-style angle brackets
+are used for blockquotes.</p>
+
+<blockquote><p>And, they can be nested.</p></blockquote>
+
+<h4>Headers in blockquotes</h4>
+
+<ul>
+<li>You can quote a list.</li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+
+<h2>Code Spans</h2>
+
+<pre><code>`&lt;code&gt;`
+</code></pre>
+
+<p><code>&lt;code&gt;</code> spans are delimited
+by backticks.</p>
+
+<p>You can include literal backticks
+like <code>`this`</code>.</p>
+
+<pre><code>`` `this` ``
+</code></pre>
+
+<p>You can also indent every line of a code block by at least 4 spaces or 1 tab.</p>
+
+<pre><code>This is a preformatted
+code block.
+</code></pre>
+
+<h2>Horizontal Rules</h2>
+
+<p>Three or more dashes or asterisks:</p>
+
+<pre><code>---
+
+* * *
+
+- - - - 
+</code></pre>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h2>Manual Line Breaks</h2>
+
+<p>Just end a line with two or more spaces:</p>
+
+<pre><code>Roses are red,   
+Violets are blue...
+</code></pre>
+
+<p>Roses are red, <br/>
+Violets are blue.<br/>
+This blog is crap<br/>
+and so are you</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Seventeen Months Is a Lifetime]]></title>
+    <link href="http://tregeagle.com/blog/2016/08/25/Seventeen-months-is-a-lifetime/"/>
+    <updated>2016-08-25T20:00:39+10:00</updated>
+    <id>http://tregeagle.com/blog/2016/08/25/Seventeen-months-is-a-lifetime</id>
+    <content type="html"><![CDATA[<p>According to the <a href="https://web.archive.org/web/20010217164613/http://www.tregeagle.com/">Wayback Machine</a> tregeagle.com has been running my blog for over 16 years now. So, maybe not posting anything for almost a year and a half is OK. It&rsquo;s not that I have nothing to say, it&rsquo;s just that I&rsquo;m not sure you need to hear it.</p>
+
+<p>A lot has happened. In short I have left behind my previous life and found a new one. All the old reference points have been rearranged. I&rsquo;ll not dwell on it, you can figure it out.</p>
+
+<p><a href="http://microblog.ourcoffs.org.au/conversation/171943"><img alt="Red Wedge 1918" src="images/pictures/redwedge.jpg"></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thanks Mr White]]></title>
+    <link href="http://tregeagle.com/blog/2015/03/26/andy-white/"/>
+    <updated>2015-03-26T20:58:39+11:00</updated>
+    <id>http://tregeagle.com/blog/2015/03/26/andy-white</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been ramping up my running lately. It&rsquo;s a type of meditation. Sometimes I just run. Other times I run and listen to music or podcasts.</p>
+
+<p>Yesterday I went for a <dfn title="Trying to increase my speed for the Gold Coast Marathon">tempo run</dfn> in the rain. I listened to the album, &ldquo;<a href="http://www.andywhite.com/album/rave-on-andy-white/" title="Go buy a copy from himself">Rave On Andy White</a>&rdquo; and entered my usual running dream/pain state. I thought of the inspirations I attached to these songs over the years. I thought how those inspirations morph into reminders. Sometimes they are just reminders about the stupid things I used to get inspired about. Other times I am reminded about the type of person I wanted to be.</p>
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/VPxuEYR8908?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>Andy White sung about <a href="https://www.youtube.com/watch?v=xzxhpZYO19Y" title="maybe he is right?">Reality Row</a> like it was a bad thing. Maybe he is right?</p>
+
+<p>I think he rather fancied himself as a &lsquo;WockStah&rsquo; as he walked down <a href="https://www.youtube.com/watch?v=12rnbGw9kAk" title="The middle of the road is apparently not as cool as six string street">Six String Street</a> in a <a href="https://www.youtube.com/watch?v=x4qooN-uzA8" title="Andy sings about groovy stuff on YTube">Groovy Kind of Way</a>. Despite Andy being a bit of a narcissistic wanker I&rsquo;ve always loved his cheerful tunes. Show me someone without a crazy self-centred dream and I&rsquo;ll show you a dull ass. Andy liked to pretend to be some sort of romantic version of Bob Dylan or an Irish version of Billy Bragg, some say he is. I wore out several of his cassette tapes over the years and I always love rediscovering his pop-with-a-hint-of-politics but mostly silly-romantic. Which probably about sums me up.</p>
+
+<p>Here is a picture of me in the midst of a depressing and life changing time in 1990-ish.</p>
+
+<p><img src="http://tregeagle.com/images/photos/ruben-ponty.jpg" width="760" title="'Ruben depressed in Pontypridd, Wales. Circa 1990-1'" ></p>
+
+<p>I was probably recently returned from or soon to go to one of the many music festivals around at the time. I remember the Fleadh at Finsbury Park and the Féile in Tipperary. I am sure I was listening to Andy White when Neil, Gareth or Lizzy snapped it.</p>
+
+<p>So, the run was shit. I could barely walk to the bog last night. Andy, as always, was good company on my crap journey. He helped me crack open a few insights along the way. Thanks for that Mr White.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Granny in Oz]]></title>
+    <link href="http://tregeagle.com/blog/2015/02/12/the-granny-in-oz/"/>
+    <updated>2015-02-12T18:18:57+11:00</updated>
+    <id>http://tregeagle.com/blog/2015/02/12/the-granny-in-oz</id>
+    <content type="html"><![CDATA[<p>My Ma recently arrived home in chilly Totnes. I loved having her staying with us for the tail end of our summer.</p>
+
+<p>We had lots of fun cycling and walking around the beaches, town and village. I had been worried she&rsquo;d be too hot but I think it was mostly pretty good. There was the obligatory few rainy days but it was mostly blazing sunshine.</p>
+
+<p>I posted some photos on FB, for those that choose not to partake of the electronic crack, here are some of those pics.</p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_Ev_caravanserai.jpg" width="720" title="'Home for three weeks'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_Big-Boambee.jpg" width="360" title="'A well earned break after climbing 90% of Big Boambee mountain'" >
+<img src="http://tregeagle.com/images/photos/Z_bike-crash.jpg" width="360" title="'Oopsie-daisy'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_cows.jpg" width="360" title="'Zaida and some old pals'" >
+<img src="http://tregeagle.com/images/photos/Z_Ev_coffs-jetty.jpg" width="360" title="'Zaida and Evan near Coffs Jetty'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_C_Sawty-beach.jpg" width="360" title="'Cheri and Zaida down Sawty beach'" >
+<img src="http://tregeagle.com/images/photos/Z_C_chests-out-grls.jpg" width="360" title="'Chest's out girls'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_R_C_Boambee-hdlnd.jpg" width="720" title="'Charlie's Angels (wait..! is that a snake belt? A clue...)'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_blowy.jpg" width="360" title="'Making Skippy happy'" >
+<img src="http://tregeagle.com/images/photos/Z_roo-love.jpg" width="360" title="'Boing! said zebedee'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_C_TZ_chips.jpg" width="360" title="'Hot chips after cycling to Arrawarra'" >
+<img src="http://tregeagle.com/images/photos/Z_C_surfclub.jpg" width="360" title="'Cheri and Zaida at the surf club'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/Z_sawty-beach.jpg" width="720" title="'Zaida'" >
+<img src="http://tregeagle.com/images/photos/Z_Caravan-rain.jpg" width="720" title="'...and it rained'" ></p>
+
+<p><img src="http://tregeagle.com/images/photos/TZ_1st-high-skool.jpg" width="360" title="'End of the Summer and off to high school'" >
+<img src="http://tregeagle.com/images/photos/Z_brekky.jpg" width="360" title="'Fruit, yoghurt and muesli - breakfast of champions'" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Win's Thai Kitchen Menu]]></title>
+    <link href="http://tregeagle.com/blog/2015/02/12/wins-thai-kitchen-menu/"/>
+    <updated>2015-02-12T18:17:22+11:00</updated>
+    <id>http://tregeagle.com/blog/2015/02/12/wins-thai-kitchen-menu</id>
+    <content type="html"><![CDATA[<p>As many of you know my fabtastically hard working partner in crime works at Win&rsquo;s Thai Kitchen.</p>
+
+<p>A wildly popular place which gets very, <em>very</em> busy, especially on the weekends. When a queue of customers is waiting to pay or order and the <em>two</em> woks are crashing and sizzling away the staff are working flat out to keep up with the rush. The phones are ringing off the hook, it can be really difficult to hear the caller.</p>
+
+<p>So, here is my advice to the discerning phone order customer, <strong>choose exactly what you want before ringing</strong>. Just to help I have posted a picture of the current menu below. If you find it hard to read <a href="http://utils.tregeagle.com/downloads/winsthai/Wins-Menu.pdf" title="Click here to download the easy to read menu">grab the original pdf here</a> or click any of the menu pictures below.</p>
+
+<p><a href="http://utils.tregeagle.com/downloads/winsthai/Wins-Menu.pdf" title="Click here to download the easy to read menu"><img src="http://tregeagle.com/images/pictures/page1.png" width="800" title="'Page 1 of Win's Thai Kitchen menu'" ></a>
+<a href="http://utils.tregeagle.com/downloads/winsthai/Wins-Menu.pdf" title="Click here to download the easy to read menu"><img src="http://tregeagle.com/images/pictures/page2.png" width="800" title="'Page 2 of Win's Thai Kitchen menu'" ></a></p>
+
+<p><a href="http://utils.tregeagle.com/downloads/winsthai/Wins-Menu.pdf"><img src="http://tregeagle.com/images/pictures/lotus-flowah.png" width="100" title="'Click here to download the easy to read menu'" ></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Alien Terror and Weather]]></title>
+    <link href="http://tregeagle.com/blog/2015/01/20/alien-terror-and-weather/"/>
+    <updated>2015-01-20T09:22:56+11:00</updated>
+    <id>http://tregeagle.com/blog/2015/01/20/alien-terror-and-weather</id>
+    <content type="html"><![CDATA[<p><img src="http://tregeagle.com/images/pictures/Alien.gif" width="360" title="'Which is scarier, Alien or ET?'" ><img src="http://tregeagle.com/images/pictures/ET.png" width="360" title="'Which is scarier, Alien or ET?'" ></p>
+
+<p>Em and Ev had been talking about the Alien movies for quite some time. Em decided it was time for him to brave the terrors. Last night we stayed up and watched the first Alien movie. Em had never seen it before and was slightly terrified throughout. His older brother Ev was unsympathetic.</p>
+
+<p><img src="http://tregeagle.com/images/pictures/alien-mashup.gif" width="360" title="'Something is wrong here...'" ></p>
+
+<p>When the alien baby was being birthed out of John Hurts&#8217; belly Ev was admonishing Em to keep his eyes open and unblock his ears. He went on to tell of his stalwart bravery when he first watched Alien. I let Em bury his face in my chest and put my arm around him. I remembered Ev&rsquo;s sheer terror at seeing ET hiding amongst the cuddly toys.</p>
+
+<p><img src="http://tregeagle.com/images/pictures/weather-forecast.png" width="700" title="'Duckduckgo tells the weather like it is'" ></p>
+
+<p>It&rsquo;s now Tuesday morning, ten to nine. The sunny spell has been broken with a night of thunderstorms. The rain is blatting on the roof like machine gun fire. Like most mornings of late, I had intended to go for a run. It is not very appealing in the sweltering heat nor in a cold hard deluge of rain.</p>
+
+<p>My Ma is probably enroute to Australia by now. No doubt her departure triggered the thunderstorms last night. We have had almost two months of beautiful weather, admittedly far too hot. It has been the kind of weather that is good for barbeques on the back deck, swimming and kayaking in the creeks and surfing off the headlands. My favourite being evening strolls into the village with the smell of jasmine. I have been mostly laying in hammocks and sofas on our back deck reading books or going running. I&rsquo;ve had occaisonal visits from friends, we generally talk about books or complain at the heat. When the weather turns inclement the back deck becomes a cold place of misery. The grass grows even more rapidly, it cannot be cut. Even the dog refuses to wade through the wet tufts. The tin roof amplifies the impact of every rain drop making conversation difficult. Even listening to the radio becomes an ordeal. The forecasters are saying this rain has been a long time coming and we can expect it to stay. Sorry Ma.</p>
+
+<p>I&rsquo;m going for a run anyway.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gastro]]></title>
+    <link href="http://tregeagle.com/blog/2015/01/02/gastro/"/>
+    <updated>2015-01-02T19:26:09+11:00</updated>
+    <id>http://tregeagle.com/blog/2015/01/02/gastro</id>
+    <content type="html"><![CDATA[<p><strong><strong>The Gift That Keeps On Giving</strong></strong></p>
+
+<p>The Brisbane summer has been hot and humid. Clothes sticking to sweaty skin and fresh cut watermelon turning sour within ten minutes of leaving the fridge.</p>
+
+<p>It started with the dog. She could not look at anyone and hung her head in shame, &ldquo;Poor dog, you must have eaten something bad&rdquo;.</p>
+
+<p>We cleaned the mess and went out visiting everyone for Christmas. By the time we got home Ev was complaining of sulphurous burps and ominous gut rumblings. The next day he declared it must be Ebola but was still able to drive the six hours home.</p>
+
+<p>We caught up with Ev a day later and so did the gut rumblings. I ignored the symptoms, perhaps I was imagining it. I went running on the beach and fasted for the rest of the day. The heat and humidity of Brisbane had followed us home. The next day after a light breakfast I ran again. I had a minor fall, grazing my knee. My ankle throbbed, then my knee. I was drenched with sweat and the wind felt cold under the midday sun. My guts clenched. <dfn title="gastro, diarrhea, type 7 on the Bristol Stool Chart">It</dfn> had me.</p>
+
+<p>C rescued me, she took me home where I paced between the loo, the sofa and the shower. Eating nothing I spent the day and then the night reading and feeling sorry for myself.</p>
+
+<p><img src="http://tregeagle.com/images/pictures/Tate-and-Lyles-Golden-Syrup-Tin.png" width="350" title="'Free novelty biblical lion beehive with every jar'" >   <img src="http://tregeagle.com/images/pictures/Bristol_stool_chart.svg.png" width="350" title="'Go straight to Type 7'" ></p>
+
+<p>Lying awake during the night I was remembering a family holiday in Scotland when I was a young boy.</p>
+
+<p>The roof of my mouth was burnt ragged eating thick hot porridge mixed with melted butter and Tate &amp; Lyles Golden Syrup. My enjoyment was cut short by gastro. I dropped my spoon in my haste to get to the toilet. When I came back Z had cleared away my half eaten bowl. Unfinished meals have never again tasted as good as that porridge. I must have dozed off because I was woken by C returning from an early moring coffee with her mate. She was buzzing with caffeine and shortly after began to feel nauseous.</p>
+
+<p>Gastro is truly the gift that keeps on giving.</p>
+
+<p>Happy New Year.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crappy Christmas]]></title>
+    <link href="http://tregeagle.com/blog/2014/12/10/crappy-christmas/"/>
+    <updated>2014-12-10T17:38:29+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/12/10/crappy-christmas</id>
+    <content type="html"><![CDATA[<p><img src="http://tregeagle.com/images/pictures/crapcrapcrap.jpg" width="760" title="'Have a Crappy Christmas'" ></p>
+
+<p>A beautiful, fantastic girl once gave us a fantastic, beautiful card for Christmas. It was many years ago and is still my all time favourite card. Much love to all our pals and families everywhere.</p>
+
+<p>Enjoy the shopping folks.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[13 Years Ago]]></title>
+    <link href="http://tregeagle.com/blog/2014/12/10/13-years-ago/"/>
+    <updated>2014-12-10T17:14:39+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/12/10/13-years-ago</id>
+    <content type="html"><![CDATA[<p><img src="http://tregeagle.com/images/photos/2001-my-family.jpg" width="760" title="'Left to right: Joe, Charlie, Zaida, Dan, Georgie and John'" >
+Thirteen years ago I missed out on being in this family pic. Next year I hope to complete my Nursing degree and a year after that I hope to complete a Post Grad year. Maybe then I can afford a proper trip home.</p>
+
+<p>Two more years seems to be so far away right now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Baby Quail]]></title>
+    <link href="http://tregeagle.com/blog/2014/12/08/baby-quail/"/>
+    <updated>2014-12-08T18:25:53+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/12/08/baby-quail</id>
+    <content type="html"><![CDATA[<p><img src="http://tregeagle.com/images/photos/baby_quail.jpg" width="760" title="'Our new baby quail'" ></p>
+
+<p>Our quails have been <dfn title="shagging, getting it on, making whoopee, becoming acquainted with the two backed beast, sexual intercourse or just plain fucking">rooting</dfn> a fair bit. The girls are popping out eggs without a care. Unfortunately, they are rather unreliable at getting clucky. Luckily <em>Speedy</em>, like many bantams, loves to keep eggs warm.</p>
+
+<p>Today Jay found that she&rsquo;d hatched one of the quail eggs. Cute hey?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Simon Wilson]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/28/simon-wilson/"/>
+    <updated>2014-11-28T20:20:15+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/28/simon-wilson</id>
+    <content type="html"><![CDATA[<p>I found a series of photo&rsquo;s on an old back-up a few months ago. Which reminded me of my pal Simon. I&rsquo;m going to post them here so that he can ask me to unpost it.</p>
+
+<p>I am quite an annoying old friend.</p>
+
+<p><img src="http://tregeagle.com/images/photos/2001-Simon_Wilson1.jpg" width="600" title="'Simon Wilson 2001'" ></p>
+
+<p>I&rsquo;m not quite sure how old I was, perhaps about 14 or 15, when I made friends with Simon Wilson. Without extended family in the immediate vicinity we were outsiders in our village. Tribal sports such as football or rugby did not interest us. We both liked gaming on <a href="http://www.worldofspectrum.org/">ZX Spectrums</a>. We were both a tad geeky, which was not cool back in 1984. It still isn&rsquo;t really, despite what the telly tells you (<a href="http://www.cbs.com/shows/big_bang_theory/">Big Bang</a>? Fibs).</p>
+
+<p><img src="http://tregeagle.com/images/photos/2001-Simon_Wilson2.jpg" width="600" title="'Simon Wilson 2001'" ></p>
+
+<p>We went for cycle rides mostly just to the gravel pits but at least once to <a href="https://en.wikipedia.org/wiki/Rinsey">Rinsey</a> and on occaison to <a href="http://www.poldark-mine.co.uk/about-us.php">Ha&#8217;penny Park</a>. We explored Lowertown woods with BJ, the Wilson family dog. Simon&rsquo;s little brother sometimes tagged along. We enjoyed discussing and playing computer and board games. Jet Set Willy was my favourite, only because I could &lsquo;hack&rsquo; it with &lsquo;pokes&rsquo; (too boring to explain). The fledgling franchises of The Hobbit, Lord of the Rings and Star Wars all figured strongly.</p>
+
+<p><img src="http://tregeagle.com/images/photos/2001-Simon_Wilson3.jpg" width="600" title="'Simon Wilson 2001'" ></p>
+
+<p>Like the many friendships throughout my life this one dissolved in time. Now I live on the otherside of the world and never glimpse my old friend, which is a shame.</p>
+
+<p>Wishing you all the best Simon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Root Agora]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/24/root-agora/"/>
+    <updated>2014-11-24T09:26:29+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/24/root-agora</id>
+    <content type="html"><![CDATA[<p>After several weeks of intermittent failed attempts I finally managed to get root on my crapass phone.</p>
+
+<p>&ldquo;Getting root&rdquo; has a different meanings here in Australia but in this case it refers to gaining full control of my telephone operating system. A bizarre idea when I stop and think about it.  Just in case there is another sad geek in need of emotional support or instructions, here is how I did it:</p>
+
+<p>I pulled up the phone specifications (Settings>About phone) and <a href="https://lmddgtfy.net/?q=root+my+kogan+agora+HD+phone">searched the net</a>.</p>
+
+<p><img src="http://tregeagle.com/images/pictures/Agora.png" width="360" title="Settings&gt;About phone" alt="Kogan Agora HD+"></p>
+
+<blockquote><p>The Phone:
+Kogan Agora HD+</p>
+
+<p>Build:
+KoganAgora_build. V2.0</p>
+
+<p>Kernel version:
+3.4.5 KoganAgora_Kernel.V2.0
+3/12/2013</p>
+
+<p>Custom build version:
+KAQC05</p></blockquote>
+
+<p>Some of the things I tried were:</p>
+
+<ul>
+<li>Configuring my Debian Wheezy laptop to use backported ADB tools and ensuring it connects properly via udev rules. Thanks <a href="http://bernaerts.dyndns.org/linux/75-debian/280-debian-wheezy-android-tools-adb-fastboot-qtadb">Nicolas Bernaerts</a>.</li>
+<li>Marc Lane&rsquo;s has a great little <a href="http://www.l8ter.com/?p=696">guide on his blog</a>, but it did not work for me.</li>
+<li>The &lsquo;quick and easy steps&rsquo; over at <a href="http://www.gleescape.com/posts/2376">Gleescape</a> led me nowhere.</li>
+<li>I even booted the Mini-Mac into Windows just to try <a href="http://www.srsroot.com/">SRSRoot</a> and a few other shonky executables.</li>
+</ul>
+
+
+<p>That last one, SRSRoot, is an executable which runs through a database of popular exploits to crack the phone security. This led me to search for a specific exploit that may work on my phone. I found a few posts in which eventually led me to <a href="http://vulnfactory.org/">Dan Rosenbergs</a> <a href="http://vulnfactory.org/public/motochopper.zip">motochopper exploit</a>, (via <a href="http://en.sourceforge.jp/projects/sfnet_seandroid/downloads/xperianeov/Extras/mods/motochopper.zip/">Sourceforge Japan</a>).</p>
+
+<p>Motochopper appears to have given me root access. Without seeing what the exploit code did it is possible Dan Rosenberg has supplanted Google as my phones keeper. I can live with that, security is just an illusion anyway. Thanks Dan.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CJ]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/18/cj/"/>
+    <updated>2014-11-18T14:35:16+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/18/cj</id>
+    <content type="html"><![CDATA[<p>CJ was a friend of mine who died of old age. I say old age but the hospital would tell you it was stroke. CJ would have told you it was because his body betrayed him.</p>
+
+<p><img src="http://tregeagle.com/images/photos/CJ-amongst-the-bitou.jpg" width="360" title="'CJ in the beach reserve'" > <img src="http://tregeagle.com/images/photos/CJ-amongst-the-bitou-.jpg" width="360" title="'getting amongst the bitou bushes'" ></p>
+
+<p>After going for a run this morning I climbed down the 74 steps for a morning swim. The water was cold and the waves messy. I ducked, floated and dived before finally letting the waves wash me back in. As I walked back up the steps struggling with my damp t-shirt I thought about CJ. He loved Murrays beach, he pulled out the bitou bushes, to give the native plants a chance, and he picked up the rubbish people left behind. He planted grass and pandanaus palms to stabilise the sand dunes, he wrote many lovely poems about his &lsquo;ancient beach&rsquo;.</p>
+
+<p>I hope his family won&rsquo;t mind if I share one here:</p>
+
+<blockquote><p><strong>My Ancient Beach</strong></p>
+
+<p>The over-arching vault of peerless blue sky.<br/>
+The metamorphic tongue of  blackened rock<br/>
+lancing the beach of spangling brightness<br/>
+to islands beyond the surf,<br/>
+now rookeries for  tern and gull.<br/>
+The pineappled pandanus standing stark<br/>
+its roots tracking nutrients and water<br/>
+as it leaches back to the sea.</p>
+
+<p>Crackling waves kiss the beach today<br/>
+swirling round the polished pebbles<br/>
+which I sample for my Shinto garden.<br/>
+The search for tranquility in my life<br/>
+comes closer to fruition here<br/>
+and like some druid admiring Nature<br/>
+I leave offerings by taking rubbish away<br/>
+pulling out weeds and starting out <br/>
+a host of young pandanus <br/>
+to reach out and touch the sky.</p>
+
+<p>CJ</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Still Emptying Dozemary Pool.]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/15/still-emptying-dozemary-pool/"/>
+    <updated>2014-11-15T20:59:03+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/15/still-emptying-dozemary-pool</id>
+    <content type="html"><![CDATA[<p>Time passes and I&rsquo;ve removed another iteration of <a href="http://tregeagle.com">tregeagle.com</a>, there is <a href="http://everything2.com/title/tregeagle">a hole in the shell</a> and my thoughts keep running through.</p>
+
+<p><strong>Some Nerdy History</strong></p>
+
+<p>I don&rsquo;t really remember when I first registered <a href="http://tregeagle.com">tregeagle.com</a>. Sometime around 1999/2000, I think. I first hosted the website on <a href="http://pair.com">Pair</a>. I wrote my first pages in some version of Windows 3.1 notepad, and something called arachniweb or webspinner or something. It was all a bit rubbish and I had no idea what I was doing I still don&rsquo;t really. In 2002 I got a job with <a href="http://webcentral.com.au">Webcentral</a> which came with free hosting somewhat reluctantly I closed my Pair account and used the servers that came with my job. My websites began to get built with abodminations like Frontpage and Coldfusion. Dreamweaver and Homesite were slightly better but I am a shite coder.</p>
+
+<p>Eventually I saw the error of my ways and quit my job and moved to the beach and spent a few years messing around with <a href="https://dreamhost.com">Dreamhost</a> and <a href="https://drupal.org" title="socialist commie pinko operating system for the web">Drupal</a>. Nowadays I am running it all out of a VPS with the excellent <a href="http://linode.com">Linode</a> and am becoming keen on a simpler approach using <a href="http://octopress.org">Octopress</a>.</p>
+
+<p>I look/ed like this on a good day:</p>
+
+<p><img src="http://tregeagle.com/images/avatars/ruben-courier-1993.jpg" width="420" title="Ruben in 1993, when I worked for Courier Systems" alt="On my old BMW when I worked for Courier Systems back in the 90s"><img src="http://tregeagle.com/images/avatars/ruben-helo.png" width="360" title="Ruben in 2014" alt="Wishing I had my own helicopter"></p>
+
+<p>I am currently at the end of my second year of a nursing degree. I have a break over the summer which is why I have time to piddle about with this stuff. I work as a retained firefighter. My spare time is spent hanging out with my family, chatting with my pal <a href="http://mjd.id.au">MJD</a> and other stuff.</p>
+
+<p>Like <a href="http://everything2.com/title/tregeagle">Jan Tregeagle</a> I never seem to get to the end of my travails, the least I can do is pass the time.</p>
+
+<p>So, welcome to another version of my <a href="http://tregeagle.com">web log</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

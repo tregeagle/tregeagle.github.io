@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Geeky | Posts by Ruben Hillier]]></title>
+  <link href="http://tregeagle.com/blog/categories/geeky/atom.xml" rel="self"/>
+  <link href="http://tregeagle.com/"/>
+  <updated>2016-09-10T18:16:33+10:00</updated>
+  <id>http://tregeagle.com/</id>
+  <author>
+    <name><![CDATA[Ruben Hillier]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Markup Cheatsheet]]></title>
+    <link href="http://tregeagle.com/blog/2016/09/09/markdown-cheatsheet/"/>
+    <updated>2016-09-09T22:44:00+10:00</updated>
+    <id>http://tregeagle.com/blog/2016/09/09/markdown-cheatsheet</id>
+    <content type="html"><![CDATA[<p>My blog is currently built with the help of the now defunct <a href="http://octopress.org/" title="Octopress">Octopress</a>. I intend to switch to <a href="http://jekyllrb.com/">Jekyll</a> when I can be arsed. I write posts using John Gruber&rsquo;s <a href="http://daringfireball.net/projects/markdown/" title="Daring Fireball - Markdown">Markdown</a>. As I write so infrequently I will maintain this brief cheatsheet to remind me of the syntax.</p>
+
+<hr />
+
+<h2>Links</h2>
+
+<pre><code>An [example](http://url.com/ "Title")
+</code></pre>
+
+<p>An <a href="http://url.com/" title="Title">example</a></p>
+
+<h2>Images</h2>
+
+<pre><code>![alt text](/favicon.png "Title")
+</code></pre>
+
+<p><img src="/favicon.png" title="Title" alt="alt text" /></p>
+
+<h2>Headers</h2>
+
+<pre><code># Header 1
+</code></pre>
+
+<h1>Header 1</h1>
+
+<pre><code>## Header 2
+</code></pre>
+
+<h2>Header 2</h2>
+
+<pre><code>.
+.
+.
+###### Header 6
+</code></pre>
+
+<h6>Header 6</h6>
+
+<h2>Lists</h2>
+
+<pre><code>*   Abacus
+    * answer    
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+            * knob
+    3. burper
+*   Cunning
+</code></pre>
+
+<ul>
+<li>Abacus
+
+<ul>
+<li>answer</li>
+</ul>
+</li>
+<li>Bubbles
+
+<ol>
+<li>bunk</li>
+<li>bupkis
+
+<ul>
+<li>BELITTLER
+
+<ul>
+<li>knob</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>burper</li>
+</ol>
+</li>
+<li>Cunning</li>
+</ul>
+
+
+<h2>Blockquotes</h2>
+
+<pre><code>&gt; Email-style angle brackets
+&gt; are used for blockquotes.
+
+&gt; &gt; And, they can be nested.
+
+&gt; #### Headers in blockquotes
+&gt; 
+&gt; * You can quote a list.
+&gt; * Etc.
+</code></pre>
+
+<blockquote><p>Email-style angle brackets
+are used for blockquotes.</p>
+
+<blockquote><p>And, they can be nested.</p></blockquote>
+
+<h4>Headers in blockquotes</h4>
+
+<ul>
+<li>You can quote a list.</li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+
+<h2>Code Spans</h2>
+
+<pre><code>`&lt;code&gt;`
+</code></pre>
+
+<p><code>&lt;code&gt;</code> spans are delimited
+by backticks.</p>
+
+<p>You can include literal backticks
+like <code>`this`</code>.</p>
+
+<pre><code>`` `this` ``
+</code></pre>
+
+<p>You can also indent every line of a code block by at least 4 spaces or 1 tab.</p>
+
+<pre><code>This is a preformatted
+code block.
+</code></pre>
+
+<h2>Horizontal Rules</h2>
+
+<p>Three or more dashes or asterisks:</p>
+
+<pre><code>---
+
+* * *
+
+- - - - 
+</code></pre>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<h2>Manual Line Breaks</h2>
+
+<p>Just end a line with two or more spaces:</p>
+
+<pre><code>Roses are red,   
+Violets are blue...
+</code></pre>
+
+<p>Roses are red, <br/>
+Violets are blue.<br/>
+This blog is crap<br/>
+and so are you</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Root Agora]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/24/root-agora/"/>
+    <updated>2014-11-24T09:26:29+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/24/root-agora</id>
+    <content type="html"><![CDATA[<p>After several weeks of intermittent failed attempts I finally managed to get root on my crapass phone.</p>
+
+<p>&ldquo;Getting root&rdquo; has a different meanings here in Australia but in this case it refers to gaining full control of my telephone operating system. A bizarre idea when I stop and think about it.  Just in case there is another sad geek in need of emotional support or instructions, here is how I did it:</p>
+
+<p>I pulled up the phone specifications (Settings>About phone) and <a href="https://lmddgtfy.net/?q=root+my+kogan+agora+HD+phone">searched the net</a>.</p>
+
+<p><img src="/images/pictures/Agora.png" width="360" title="&lsquo;Settings&gt;About phone&rsquo; &lsquo;Kogan Agora HD+&rsquo;" ></p>
+
+<blockquote><p>The Phone:
+Kogan Agora HD+</p>
+
+<p>Build:
+KoganAgora_build. V2.0</p>
+
+<p>Kernel version:
+3.4.5 KoganAgora_Kernel.V2.0
+3/12/2013</p>
+
+<p>Custom build version:
+KAQC05</p></blockquote>
+
+<p>Some of the things I tried were:</p>
+
+<ul>
+<li>Configuring my Debian Wheezy laptop to use backported ADB tools and ensuring it connects properly via udev rules. Thanks <a href="http://bernaerts.dyndns.org/linux/75-debian/280-debian-wheezy-android-tools-adb-fastboot-qtadb">Nicolas Bernaerts</a>.</li>
+<li>Marc Lane&rsquo;s has a great little <a href="http://www.l8ter.com/?p=696">guide on his blog</a>, but it did not work for me.</li>
+<li>The &lsquo;quick and easy steps&rsquo; over at <a href="http://www.gleescape.com/posts/2376">Gleescape</a> led me nowhere.</li>
+<li>I even booted the Mini-Mac into Windows just to try <a href="http://www.srsroot.com/">SRSRoot</a> and a few other shonky executables.</li>
+</ul>
+
+
+<p>That last one, SRSRoot, is an executable which runs through a database of popular exploits to crack the phone security. This led me to search for a specific exploit that may work on my phone. I found a few posts in which eventually led me to <a href="http://vulnfactory.org/">Dan Rosenbergs</a> <a href="http://vulnfactory.org/public/motochopper.zip">motochopper exploit</a>, (via <a href="http://en.sourceforge.jp/projects/sfnet_seandroid/downloads/xperianeov/Extras/mods/motochopper.zip/">Sourceforge Japan</a>).</p>
+
+<p>Motochopper appears to have given me root access. Without seeing what the exploit code did it is possible Dan Rosenberg has supplanted Google as my phones keeper. I can live with that, security is just an illusion anyway. Thanks Dan.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Still Emptying Dozemary Pool.]]></title>
+    <link href="http://tregeagle.com/blog/2014/11/15/still-emptying-dozemary-pool/"/>
+    <updated>2014-11-15T20:59:03+11:00</updated>
+    <id>http://tregeagle.com/blog/2014/11/15/still-emptying-dozemary-pool</id>
+    <content type="html"><![CDATA[<p>Time passes and I&rsquo;ve removed another iteration of <a href="http://tregeagle.com">tregeagle.com</a>, there is <a href="http://everything2.com/title/tregeagle">a hole in the shell</a> and my thoughts keep running through.</p>
+
+<p><strong>Some Nerdy History</strong></p>
+
+<p>I don&rsquo;t really remember when I first registered <a href="http://tregeagle.com">tregeagle.com</a>. Sometime around 1999/2000, I think. I first hosted the website on <a href="http://pair.com">Pair</a>. I wrote my first pages in some version of Windows 3.1 notepad, and something called arachniweb or webspinner or something. It was all a bit rubbish and I had no idea what I was doing I still don&rsquo;t really. In 2002 I got a job with <a href="http://webcentral.com.au">Webcentral</a> which came with free hosting somewhat reluctantly I closed my Pair account and used the servers that came with my job. My websites began to get built with abodminations like Frontpage and Coldfusion. Dreamweaver and Homesite were slightly better but I am a shite coder.</p>
+
+<p>Eventually I saw the error of my ways and quit my job and moved to the beach and spent a few years messing around with <a href="https://dreamhost.com">Dreamhost</a> and <a href="https://drupal.org" title="socialist commie pinko operating system for the web">Drupal</a>. Nowadays I am running it all out of a VPS with the excellent <a href="http://linode.com">Linode</a> and am becoming keen on a simpler approach using <a href="http://octopress.org">Octopress</a>.</p>
+
+<p>I look/ed like this on a good day:</p>
+
+<p><img src="/images/avatars/ruben-courier-1993.jpg" width="420" title="&lsquo;Ruben in 1993, when I worked for Courier Systems&rsquo; &lsquo;On my old BMW when I worked for Courier Systems back in the 90s&rsquo;" ><img src="/images/avatars/ruben-helo.png" width="360" title="&lsquo;Ruben in 2014&rsquo; &lsquo;Wishing I had my own helicopter&rsquo;" ></p>
+
+<p>I am currently at the end of my second year of a nursing degree. I have a break over the summer which is why I have time to piddle about with this stuff. I work as a retained firefighter. My spare time is spent hanging out with my family, chatting with my pal <a href="http://mjd.id.au">MJD</a> and other stuff.</p>
+
+<p>Like <a href="http://everything2.com/title/tregeagle">Jan Tregeagle</a> I never seem to get to the end of my travails, the least I can do is pass the time.</p>
+
+<p>So, welcome to another version of my <a href="http://tregeagle.com">web log</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
